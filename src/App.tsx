@@ -1,10 +1,17 @@
 import './App.css'
+import Buttons from './components/Buttons'
+import CustomDiv from './components/CustomDiv'
+import DeleteLS from './components/DeleteLS'
+import SaveRetreiveLS from './components/SaveRetreiveLS'
 
 function App() {
 
   return (
     <>
-      <div>hello !</div>
+      <Buttons/>
+      <CustomDiv/>
+      <SaveRetreiveLS/>
+      <DeleteLS/>
     </>
   )
 }
